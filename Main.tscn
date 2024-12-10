@@ -1,10 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://dp4m36at6mfwj"]
+[gd_scene load_steps=3 format=3 uid="uid://dp4m36at6mfwj"]
 
-[ext_resource type="Texture2D" uid="uid://2314ngls44mp" path="res://Rajang.jpg" id="1_rt5rv"]
+[ext_resource type="Script" path="res://CardManager.gd" id="1_y5tt4"]
+[ext_resource type="PackedScene" uid="uid://dgewkai2vr6d8" path="res://Card.tscn" id="2_b2hq7"]
 
 [node name="Main" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(553, 293)
-scale = Vector2(0.375, 0.375)
-texture = ExtResource("1_rt5rv")
+[node name="CardManager" type="Node2D" parent="."]
+script = ExtResource("1_y5tt4")
+
+[node name="Card" parent="CardManager" instance=ExtResource("2_b2hq7")]
+position = Vector2(430, 233)
+
+[node name="Card2" parent="CardManager" instance=ExtResource("2_b2hq7")]
+position = Vector2(786, 244)
