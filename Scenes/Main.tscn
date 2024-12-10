@@ -14,13 +14,14 @@ size = Vector2(161, 223)
 script = ExtResource("1_y5tt4")
 
 [node name="Card" parent="CardManager" instance=ExtResource("2_b2hq7")]
-position = Vector2(363, 321)
+position = Vector2(374, 566)
 
 [node name="Card2" parent="CardManager" instance=ExtResource("2_b2hq7")]
-position = Vector2(153, 323)
+position = Vector2(480, 566)
 
 [node name="Cardslot" type="Node2D" parent="."]
-position = Vector2(607, 505)
+visible = false
+position = Vector2(590, 460)
 script = ExtResource("3_m2n0n")
 
 [node name="Sprite2D" type="Sprite2D" parent="Cardslot"]
