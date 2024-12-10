@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0pmu3nvgdjvj"
-path="res://.godot/imported/Boss Test.png-733be5f6b2a85fb9b49650ddc478f952.ctex"
+uid="uid://b4uyaiwteibdy"
+path="res://.godot/imported/Mage Test.png-2e57194b6813b3f007ed18e78ea366d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Boss Test.png"
-dest_files=["res://.godot/imported/Boss Test.png-733be5f6b2a85fb9b49650ddc478f952.ctex"]
+source_file="res://Assets/Mage Test.png"
+dest_files=["res://.godot/imported/Mage Test.png-2e57194b6813b3f007ed18e78ea366d8.ctex"]
 
 [params]
 
