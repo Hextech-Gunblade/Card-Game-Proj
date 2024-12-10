@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4gtvfp6vrlxl"
-path="res://.godot/imported/Archer Test.png-e2e2ea6c53ac0f4edafa22cd73b3e0f7.ctex"
+uid="uid://0pmu3nvgdjvj"
+path="res://.godot/imported/Boss Test.png-501004e187070e2425c5af7193a2ecc4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Archer Test.png"
-dest_files=["res://.godot/imported/Archer Test.png-e2e2ea6c53ac0f4edafa22cd73b3e0f7.ctex"]
+source_file="res://Assets/Boss Test.png"
+dest_files=["res://.godot/imported/Boss Test.png-501004e187070e2425c5af7193a2ecc4.ctex"]
 
 [params]
 

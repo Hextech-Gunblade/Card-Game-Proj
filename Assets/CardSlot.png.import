@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4uyaiwteibdy"
-path="res://.godot/imported/Mage Test.png-7091ace30ba25bbe8bfa7bc58191e0d0.ctex"
+uid="uid://cr56mm4702jbb"
+path="res://.godot/imported/CardSlot.png-e9d43e4f8ba55be79b6db829726e4a98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Mage Test.png"
-dest_files=["res://.godot/imported/Mage Test.png-7091ace30ba25bbe8bfa7bc58191e0d0.ctex"]
+source_file="res://Assets/CardSlot.png"
+dest_files=["res://.godot/imported/CardSlot.png-e9d43e4f8ba55be79b6db829726e4a98.ctex"]
 
 [params]
 
