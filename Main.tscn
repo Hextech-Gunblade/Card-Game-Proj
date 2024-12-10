@@ -1,15 +1,33 @@
-[gd_scene load_steps=3 format=3 uid="uid://dp4m36at6mfwj"]
+[gd_scene load_steps=5 format=3 uid="uid://dp4m36at6mfwj"]
 
 [ext_resource type="Script" path="res://CardManager.gd" id="1_y5tt4"]
-[ext_resource type="PackedScene" uid="uid://dgewkai2vr6d8" path="res://Card.tscn" id="2_b2hq7"]
+[ext_resource type="PackedScene" uid="uid://baf3i84poas11" path="res://Card.tscn" id="2_b2hq7"]
+[ext_resource type="Texture2D" uid="uid://cr56mm4702jbb" path="res://CardSlot.png" id="3_i5d55"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dcw2j"]
+size = Vector2(174, 260)
 
 [node name="Main" type="Node2D"]
 
 [node name="CardManager" type="Node2D" parent="."]
+position = Vector2(17, 0)
 script = ExtResource("1_y5tt4")
 
 [node name="Card" parent="CardManager" instance=ExtResource("2_b2hq7")]
-position = Vector2(430, 233)
+position = Vector2(527, 271)
 
 [node name="Card2" parent="CardManager" instance=ExtResource("2_b2hq7")]
 position = Vector2(786, 244)
+
+[node name="Cardslot" type="Node2D" parent="."]
+position = Vector2(171, -77)
+
+[node name="Sprite2D" type="Sprite2D" parent="Cardslot"]
+texture = ExtResource("3_i5d55")
+
+[node name="Area2D" type="Area2D" parent="Cardslot"]
+position = Vector2(28, -8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cardslot/Area2D"]
+position = Vector2(-30, 9)
+shape = SubResource("RectangleShape2D_dcw2j")
