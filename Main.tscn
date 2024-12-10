@@ -18,7 +18,7 @@ script = ExtResource("1_y5tt4")
 position = Vector2(527, 271)
 
 [node name="Card2" parent="CardManager" instance=ExtResource("2_b2hq7")]
-position = Vector2(786, 244)
+position = Vector2(718, 268)
 
 [node name="Cardslot" type="Node2D" parent="."]
 position = Vector2(539, 257)
@@ -35,5 +35,5 @@ collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Cardslot/Area2D"]
-position = Vector2(-23.5, 21.5)
+position = Vector2(-22, 20)
 shape = SubResource("RectangleShape2D_dcw2j")
