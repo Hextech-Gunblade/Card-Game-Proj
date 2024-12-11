@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://baf3i84poas11"]
+[gd_scene load_steps=4 format=3 uid="uid://bgaws4lo0srni"]
 
 [ext_resource type="Script" path="res://Scenes/Card.gd" id="1_g0u6g"]
 [ext_resource type="Texture2D" uid="uid://bc2uq1wyl32py" path="res://Assets/Knight Test.png" id="1_it5bj"]
