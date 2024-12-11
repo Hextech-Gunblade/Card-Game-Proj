@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dge2qx0c6d55k"]
+[gd_scene load_steps=7 format=3 uid="uid://dge2qx0c6d55k"]
 
 [ext_resource type="Script" path="res://Scripts/CardManager.gd" id="1_y5tt4"]
 [ext_resource type="Script" path="res://Scripts/CardSlot.gd" id="3_cyd6s"]
 [ext_resource type="Texture2D" uid="uid://b7klattbnmmgq" path="res://Assets/CardSlot.png" id="3_i5d55"]
 [ext_resource type="Script" path="res://Scripts/PlayerHand.gd" id="4_bvg7y"]
+[ext_resource type="Script" path="res://Scenes/camera_2d.gd" id="5_3fiuh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dcw2j"]
 size = Vector2(161, 223)
@@ -111,3 +112,6 @@ shape = SubResource("RectangleShape2D_dcw2j")
 
 [node name="PlayerHand" type="Node2D" parent="."]
 script = ExtResource("4_bvg7y")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("5_3fiuh")
