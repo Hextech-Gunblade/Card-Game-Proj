@@ -17,9 +17,14 @@ config/icon="res://icon.svg"
 
 [display]
 
+<<<<<<< Updated upstream
 window/size/viewport_width=1600
 window/size/viewport_height=900
 window/size/resizable=false
+=======
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+>>>>>>> Stashed changes
 window/vsync/vsync_mode=0
 
 [input]
