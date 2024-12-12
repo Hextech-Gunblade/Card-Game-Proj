@@ -18,7 +18,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if card_being_dragged:
 		var mouse_pos = get_global_mouse_position()
-		card_being_dragged.position = Vector2(clamp(mouse_pos.x,0,screen_size.x), clamp(mouse_pos.y,0,screen_size.y) )
+		card_being_dragged.position = mouse_pos
+		#Vector2(clamp(mouse_pos.x,0,screen_size.x), clamp(mouse_pos.y,0,screen_size.y) )
 
 #func _input(event):
 	#if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
