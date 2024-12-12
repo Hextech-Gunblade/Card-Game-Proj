@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cingn5w704fbv"
-path="res://.godot/imported/Knight Test.png-5f159ef5a91d4e902ed46848182cf037.ctex"
+uid="uid://udpofe4sxceg"
+path="res://.godot/imported/Ezreal.png-913ea072028956a1f69b2e39ad8a6398.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Knight Test.png"
-dest_files=["res://.godot/imported/Knight Test.png-5f159ef5a91d4e902ed46848182cf037.ctex"]
+source_file="res://Assets/Ezreal.png"
+dest_files=["res://.godot/imported/Ezreal.png-913ea072028956a1f69b2e39ad8a6398.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://udpofe4sxceg"
-path="res://.godot/imported/Archer Test.png-eaf59c325298816df43d89c99b33419a.ctex"
+uid="uid://or7c1qd353bb"
+path="res://.godot/imported/Thresh.png-811b6cf6b25317bf9c834ee0a9c52e7e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Archer Test.png"
-dest_files=["res://.godot/imported/Archer Test.png-eaf59c325298816df43d89c99b33419a.ctex"]
+source_file="res://Assets/Thresh.png"
+dest_files=["res://.godot/imported/Thresh.png-811b6cf6b25317bf9c834ee0a9c52e7e.ctex"]
 
 [params]
 
